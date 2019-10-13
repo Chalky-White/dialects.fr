@@ -11,7 +11,7 @@
     <div class="row ">
       <div class="col-xs-2 col-sm-2">
         <router-link :to="{ name: 'Algo' }">
-          <h3>Algorithmie</h3>
+          <h3>Mon Parcours</h3>
         </router-link>
 
         <a
@@ -19,7 +19,7 @@
           target="_blank"
           rel="noopener"
           ><button type="button" class="btn btn-info">
-            OC - Algorithmique pour l'apprenti programmeur
+            Analyse du besoin
           </button></a
         >
         <a
