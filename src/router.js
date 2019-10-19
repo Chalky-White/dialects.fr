@@ -1,9 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/home/home.vue";
-import Algo from "./views/algo/algo.vue";
+import Course from "./views/course/course.vue";
 import Conception from "./views/conception/conception.vue";
-import Css from "./views/css/css.vue";
+import NeedsAnalysis from "./views/needsAnalysis/needsAnalysis.vue";
 import Html from "./views/html/html.vue";
 import Javascript from "./views/javascript/javascript.vue";
 import Vuejs from "./views/vuejs/vuejs.vue";
@@ -20,9 +20,9 @@ export default new Router({
       component: Home
     },
     {
-      path: "/algo",
-      name: "Algo",
-      component: Algo
+      path: "/course",
+      name: "Course",
+      component: Course
       // redirect: { name: "children" },
       // children: [
       //   {
@@ -38,9 +38,9 @@ export default new Router({
       component: Conception
     },
     {
-      path: "/css",
-      name: "Css",
-      component: Css
+      path: "/needsAnalysis",
+      name: "NeedsAnalysis",
+      component: NeedsAnalysis
     },
     {
       path: "/html",
