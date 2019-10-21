@@ -81,9 +81,9 @@
         </div>
 
         <div class="col-xs-2 col-sm-2">
-          <router-link :to="{ name: 'Course' }">
+          <router-link :to="{ name: 'Accessibility' }">
             <button type="button" class="btn btn-secondary">
-              <h4>Management</h4>
+              <h4>Accessibility</h4>
             </button>
           </router-link>
         </div>

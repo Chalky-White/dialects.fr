@@ -9,6 +9,7 @@ import FunctionalSpecifications from "./views/functionalSpecifications/functiona
 import Benchmarking from "./views/benchmarking/benchmarking.vue";
 import VisualIdentity from "./views/visualIdentity/visualIdentity.vue";
 import ScrumMaster from "./views/scrumMaster/scrumMaster.vue";
+import Accessibility from "./views/accessibility/accessibility.vue"
 
 Vue.use(Router);
 
@@ -68,6 +69,11 @@ export default new Router({
       path: "/visualIdentity ",
       name: "visualIdentity",
       component: VisualIdentity
+    },
+    {
+      path: "/accessibility ",
+      name: "Accessibility",
+      component: Accessibility
     }
   ]
 });
