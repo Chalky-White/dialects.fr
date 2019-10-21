@@ -1,12 +1,14 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/home/home.vue";
+import ArtIntell from "./views/artIntell/artIntell.vue";
 import Course from "./views/course/course.vue";
-import Conception from "./views/conception/conception.vue";
+import ProfessionalCareer from "./views/professionalCareer/professionalCareer.vue";
 import NeedsAnalysis from "./views/needsAnalysis/needsAnalysis.vue";
-import Html from "./views/html/html.vue";
-import Javascript from "./views/javascript/javascript.vue";
-import Vuejs from "./views/vuejs/vuejs.vue";
+import FunctionalSpecifications from "./views/functionalSpecifications/functionalSpecifications.vue";
+import Benchmarking from "./views/benchmarking/benchmarking.vue";
+import VisualIdentity from "./views/visualIdentity/visualIdentity.vue";
+import ScrumMaster from "./views/scrumMaster/scrumMaster.vue";
 
 Vue.use(Router);
 
@@ -33,9 +35,14 @@ export default new Router({
       // ]
     },
     {
-      path: "/conception",
-      name: "Conception",
-      component: Conception
+      path: "/artIntell",
+      name: "ArtIntell",
+      component: ArtIntell
+    },
+    {
+      path: "/professionalCareer",
+      name: "ProfessionalCareer",
+      component: ProfessionalCareer
     },
     {
       path: "/needsAnalysis",
@@ -43,19 +50,24 @@ export default new Router({
       component: NeedsAnalysis
     },
     {
-      path: "/html",
-      name: "Html",
-      component: Html
+      path: "/functionalSpecifications",
+      name: "FunctionalSpecifications",
+      component: FunctionalSpecifications
     },
     {
-      path: "/javascript",
-      name: "Javascript",
-      component: Javascript
+      path: "/benchmarking",
+      name: "benchmarking",
+      component: Benchmarking
     },
     {
-      path: "/vuejs ",
-      name: "Vuejs",
-      component: Vuejs
+      path: "/scrumMaster ",
+      name: "ScrumMaster",
+      component: ScrumMaster
+    },
+    {
+      path: "/visualIdentity ",
+      name: "visualIdentity",
+      component: VisualIdentity
     }
   ]
 });

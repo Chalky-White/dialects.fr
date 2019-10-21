@@ -1,6 +1,7 @@
+
+
 .home-pic {
   width: -moz-available;
-  margin-top: -25em;
 }
 h3 {
   margin: 40px 0 0;
@@ -36,7 +37,18 @@ a {
   }
 }
 
+.table {
+
+  margin-bottom: 25em;
+  padding-bottom: 5em;
+}
+
 .btn {
 height: 5em;
-margin-top: 1em;
+margin-top: 5em;
+}
+
+.hello {
+  background-image: url("../../assets/beach.jpg");
+  padding-top: 25em;
 }

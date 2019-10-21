@@ -2,14 +2,14 @@ import Vue from "vue";
 import Header from "@/components/header/header.vue";
 
 new Vue({
-  el: "#html",
+  el: "#functionalSpecifications",
   components: {
     header: Header
   }
 });
 
 export default {
-  name: "html",
+  name: "functionalSpecifications",
   props: {
     msg: String
   }
