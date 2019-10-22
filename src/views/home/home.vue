@@ -1,16 +1,22 @@
 <template>
   <div class="hello">
     <Header></Header>
-    <h1>{{ msg }}</h1>
-
-    <br />
-
     <div class="table">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 offset-4">
+          <router-link :to="{ name: 'Course' }">
+            <button type="button" class="btn btn-primary">
+              <h4>Professional Career</h4>
+            </button>
+          </router-link>
+        </div>
+      </div>
+
       <div class="row ">
         <div class="col-xs-2 col-sm-2">
           <router-link :to="{ name: 'Course' }">
             <button type="button" class="btn btn-info">
-              <h4>Professional Carrer</h4>
+              <h4>Project Management Principles</h4>
             </button>
           </router-link>
         </div>
