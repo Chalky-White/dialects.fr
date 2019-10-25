@@ -3,10 +3,24 @@
     <Header></Header>
     <div class="table">
       <div class="row">
-        <div class="col-xs-4 col-sm-4 offset-4">
-          <router-link :to="{ name: 'Course' }">
+        <div class="col-xs-2 col-sm-2 offset-2">
+          <router-link :to="{ name: 'BusinessAnalyst' }">
             <button type="button" class="btn btn-primary">
+              <h4>Business Analyst</h4>
+            </button>
+          </router-link>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <router-link :to="{ name: 'ProfessionalCareer' }">
+            <button type="button" class="btn btn-warning">
               <h4>Professional Career</h4>
+            </button>
+          </router-link>
+        </div>
+        <div class="col-xs-2 col-sm-2">
+          <router-link :to="{ name: 'Agility' }">
+            <button type="button" class="btn btn-success">
+              <h4>Agility</h4>
             </button>
           </router-link>
         </div>
@@ -14,7 +28,7 @@
 
       <div class="row ">
         <div class="col-xs-2 col-sm-2">
-          <router-link :to="{ name: 'Course' }">
+          <router-link :to="{ name: 'ProjectManagement' }">
             <button type="button" class="btn btn-info">
               <h4>Project Management Principles</h4>
             </button>
@@ -145,7 +159,7 @@
 
         <div class="col-xs-2 col-sm-2">
           <router-link :to="{ name: 'Course' }">
-            <button type="button" class="btn btn-secondary">
+            <button type="button" class="btn btn-info">
               <h4>Business Intelligence</h4>
             </button>
           </router-link>

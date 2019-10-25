@@ -9,7 +9,8 @@ import FunctionalSpecifications from "./views/functionalSpecifications/functiona
 import Benchmarking from "./views/benchmarking/benchmarking.vue";
 import VisualIdentity from "./views/visualIdentity/visualIdentity.vue";
 import ScrumMaster from "./views/scrumMaster/scrumMaster.vue";
-import Accessibility from "./views/accessibility/accessibility.vue"
+import Accessibility from "./views/accessibility/accessibility.vue";
+import BusinessAnalyst from "./views/businessAnalysis/businessAnalysis.vue";
 
 Vue.use(Router);
 
@@ -74,6 +75,16 @@ export default new Router({
       path: "/accessibility ",
       name: "Accessibility",
       component: Accessibility
+    },
+    {
+      path: "/businessnalyst ",
+      name: "BusinessAnalyst",
+      component: BusinessAnalyst
+    },
+    {
+      path: "/businessnalyst ",
+      name: "BusinessAnalyst",
+      component: BusinessAnalyst
     }
   ]
 });
