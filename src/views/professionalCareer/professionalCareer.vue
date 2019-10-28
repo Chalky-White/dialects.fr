@@ -5,7 +5,9 @@
     <br />
 
     <div class="skills">
-      <div class="title1"><h1>Skills</h1></div>
+      <div class="title1">
+        <h1>Skills</h1>
+      </div>
 
       <br />
       <h3>Langages</h3>

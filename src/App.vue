@@ -17,6 +17,7 @@
   color: #2c3e50;
 }
 #nav {
+  font-family: ubuntulight;
   background-color: black;
   padding: 30px;
   color: grey;
@@ -27,5 +28,9 @@
       color: #ffffff;
     }
   }
+}
+
+.sentance {
+  text-align: right;
 }
 </style>

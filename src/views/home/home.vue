@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
-    <div class="title">Background,</div>
-    <div class="title2">notes.</div>
+    <div class="title">Background, notes.</div>
     <div class="table">
       <div class="row">
         <div class="col-xs-2 col-sm-2 offset-2">
