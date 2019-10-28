@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'ubuntulight';
+    src: url('../../fonts/ubuntulight.ttf')
+}
+
+.body {
+    font-family: ubuntulight;
+    margin-left: 3em;
+    color: rgb(99, 98, 98);
+} 
+
+.body, .email {
+    text-align: left;
+    font-size: 15px;
+}
+
+.skills {
+
+}

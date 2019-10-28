@@ -1,3 +1,7 @@
+@font-face{
+  font-family: 'ubuntulight';
+  src: url('../../fonts/ubuntulight.ttf')
+}
 
 
 .home-pic {
@@ -38,17 +42,26 @@ a {
 }
 
 .table {
-
-  margin-bottom: 25em;
+  margin-bottom: 20em;
   padding-bottom: 5em;
 }
 
 .btn {
 height: 5em;
-margin-top: 5em;
+margin-top:3em;
+font-size-adjust: unset;
 }
 
 .hello {
   background-image: url("../../assets/beach.jpg");
-  padding-top: 25em;
+  padding-top: 5em;
+  font-family: ubuntulight;
+  font-weight: bold;
 }
+
+.title, .title2 {
+  font-size: 5em;
+  color: rgb(75, 75, 75);
+  font-family: ubuntulight;
+}
+

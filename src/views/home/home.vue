@@ -1,11 +1,12 @@
 <template>
   <div class="hello">
-    <Header></Header>
+    <div class="title">Background,</div>
+    <div class="title2">notes.</div>
     <div class="table">
       <div class="row">
         <div class="col-xs-2 col-sm-2 offset-2">
           <router-link :to="{ name: 'BusinessAnalyst' }">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-primary" disabled>
               <h4>Business Analyst</h4>
             </button>
           </router-link>
