@@ -1,34 +1,16 @@
-@font-face{
-  font-family: 'ubuntulight';
-  src: url('../../fonts/ubuntulight.ttf')
+@font-face {
+  font-family: "ubuntulight";
+  src: url("../../fonts/ubuntulight.ttf");
 }
 
-
-.home-pic {
-  width: -moz-available;
-}
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 button {
   width: 100%;
+  font-size: 80%;
 }
 
 a {
   text-decoration: none;
 }
-
 
 #nav {
   padding: 30px;
@@ -42,26 +24,24 @@ a {
 }
 
 .table {
-  margin-bottom: 20em;
   padding-bottom: 5em;
 }
 
 .btn {
-height: 5em;
-margin-top:3em;
-font-size-adjust: unset;
+  height: 5em;
+  margin-top: 3em;
+  font-size-adjust: unset;
 }
 
 .hello {
   background: url("../../assets/beach.jpg");
   padding-top: 10em;
   font-family: ubuntulight;
-  font-weight: bold;
-}
+  font-weight: bold;}
 
-.title, .title2 {
+.title,
+.title2 {
   font-size: 5em;
   color: rgb(75, 75, 75);
   font-family: ubuntulight;
 }
-
