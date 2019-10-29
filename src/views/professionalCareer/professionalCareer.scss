@@ -6,10 +6,18 @@
 .body {
     font-family: ubuntulight;
     margin-left: 3em;
-    color: rgb(99, 98, 98);
+    color: rgb(255, 255, 255);
 } 
 
 .body, .email {
     text-align: left;
     font-size: 15px;
+}
+
+.skills {
+    background: rgb(110, 110, 110);
+}
+
+.xp {
+    background: rgb(37, 37, 37);
 }
