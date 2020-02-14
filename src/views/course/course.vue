@@ -6,5 +6,3 @@
   </div>
 </template>
 
-<script src="./course.js"></script>
-<style scoped lang="scss" src="./course.scss"></style>

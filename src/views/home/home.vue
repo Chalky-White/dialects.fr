@@ -117,18 +117,19 @@
         </div>
 
         <div class="col-xs-2 col-sm-2">
-          <router-link :to="{ name: 'Course' }">
+          <router-link :to="{ name: 'Audit' }">
             <button type="button" class="btn btn-secondary">
               <h4>Audit</h4>
             </button>
           </router-link>
         </div>
       </div>
+
       <div class="row ">
         <div class="col-xs-2 col-sm-2">
-          <router-link :to="{ name: 'Course' }">
+          <router-link :to="{ name: 'BddTdd' }">
             <button type="button" class="btn btn-info">
-              <h4>Coding</h4>
+              <h4>BDD / TDD</h4>
             </button>
           </router-link>
         </div>
@@ -177,6 +178,56 @@
   </div>
 </template>
 
-<script src="./home.js"></script>
 
-<style scoped lang="scss" src="./home.scss"></style>
+<style scoped>
+
+@font-face {
+  font-family: "ubuntulight";
+  src: url("../../fonts/ubuntulight.ttf");
+}
+
+button {
+  width: 100%;
+  font-size: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav {
+  padding: 30px;
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
+
+.table {
+  padding-bottom: 12em;
+
+}
+
+.btn {
+  height: 5em;
+  margin-top: 3em;
+  font-size-adjust: unset;
+}
+
+.hello {
+  background: url("../../assets/beach.jpg");
+  padding-top: 10em;
+  font-family: ubuntulight;
+  font-weight: bold;}
+
+.title,
+.title2 {
+  font-size: 5em;
+  color: rgb(75, 75, 75);
+  font-family: ubuntulight;
+}
+
+</style>

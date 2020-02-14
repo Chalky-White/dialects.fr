@@ -10,7 +10,10 @@ import Benchmarking from "./views/benchmarking/benchmarking.vue";
 import VisualIdentity from "./views/visualIdentity/visualIdentity.vue";
 import ScrumMaster from "./views/scrumMaster/scrumMaster.vue";
 import Accessibility from "./views/accessibility/accessibility.vue";
-import BusinessAnalyst from "./views/businessAnalysis/businessAnalysis.vue";
+import BusinessAnalyst from "./views/busAna/busAna.vue";
+import BddTdd from "./views/bddTtdd/bddTdd.vue";
+import Audit from "./views/audit/audit.vue";
+
 
 Vue.use(Router);
 
@@ -82,9 +85,14 @@ export default new Router({
       component: BusinessAnalyst
     },
     {
-      path: "/businessnalyst ",
-      name: "BusinessAnalyst",
-      component: BusinessAnalyst
+      path: "/audit ",
+      name: "Audit",
+      component: Audit
+    },
+    {
+      path: "/bddtdd ",
+      name: "BddTdd",
+      component: BddTdd
     }
   ]
 });

@@ -123,4 +123,45 @@
 
 <script src="./professionalCareer.js"></script>
 
-<style scoped lang="scss" src="./professionalCareer.scss"></style>
+<style scoped lang="scss">
+@font-face{
+    font-family: 'ubuntulight';
+    src: url('../../fonts/ubuntulight.ttf')
+}
+
+.body {
+    font-family: ubuntulight;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: rgb(255, 255, 255);
+} 
+
+.body {
+    text-align: left;
+    font-size: 12px;
+}
+
+.email {
+    font-size: 20px;
+    color: dimgrey;
+}
+
+.skills {
+    background: rgba(255, 158, 48, 0.863);
+    padding-left: 2em;
+}
+
+.xp {
+    background: rgb(150, 110, 73);
+    padding-left: 2em;
+}
+
+.curriculum {
+    background: rgba(74, 161, 243, 0.863);
+    padding-left: 2em;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+</style>

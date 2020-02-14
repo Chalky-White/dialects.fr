@@ -13,4 +13,6 @@
 <style scoped lang="scss" src="./algo.scss"></style>
 
 
-
+h1 {
+    color: aqua ; 
+}
